@@ -17,13 +17,28 @@ nav a {
   color: #000000;
 }
 
+.rainy-days_logo {
+  height: 45px;
+}
+
 .hero {
-  height: 80vh;
+  background-size: cover;
   background: url(../Pictures/main-header-2.jpg) center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  color: #4F3F31;
+  min-height: 60vh;
+  position: relative;
+  
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #4F3F31;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 .hero h1 {
@@ -61,10 +76,13 @@ nav a {
 }
 
 .why_our_jackets{
+  font-size: small;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background: #7F6C5C;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
+  position: relative;
 
 }
 
