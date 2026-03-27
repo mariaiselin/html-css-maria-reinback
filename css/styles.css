@@ -22,8 +22,8 @@ nav a {
 }
 
 .hero {
-  background-size: cover;
   background: url(../Pictures/main-header-2.jpg) center/cover no-repeat;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -46,11 +46,12 @@ nav a {
 }
 
 .hero button {
-  padding: 10px; 20px;
+  padding: 15px; 20px;
   background: #7F6C5C;
   color: #ffffff;
   border: none;
   margin-top: 20px;
+  
 }
 
 .info {
@@ -61,8 +62,8 @@ nav a {
   }
 
 .products {
-  padding: 40px;
-  text-align: center;
+  padding: 10px;
+  text-align
 }  
 
 .product-grid {
@@ -75,13 +76,21 @@ nav a {
   width: 200px;
 }
 
-.why_our_jackets{
-  font-size: small;
+.most-wanted {
+  text-align: center;
+  font-size: x-large;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  padding: 10px;
+}
+
+.why_our_jackets {
+  font-size: smaller;
+  font-family:Arial, Helvetica, sans-serif;
   background: #7F6C5C;
   color: white;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   position: relative;
 
 }
