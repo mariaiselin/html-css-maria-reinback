@@ -6,20 +6,34 @@ font-family: Arial, Helvetica, sans-serif;
 /* NAVBAR */
 header {
   display: flex;
-  justify-content: space-between;
-  padding: 20px; 40px;
-  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
 }
 
-nav a {
-  margin: 0 10px;;
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin-left: 80px;
+}
+
+.nav-links a {
   text-decoration: none;
-  color: #000000;
+  color: black;
 }
 
 .rainy-days_logo {
   height: 45px;
 }
+
+
 
 .hero {
   background: url(../Pictures/main-header-2.jpg) center/cover no-repeat;
@@ -30,6 +44,7 @@ nav a {
   color: #4F3F31;
   min-height: 60vh;
   position: relative;
+  object-fit: cover;
   
   height: 30vh;
   display: flex;
@@ -63,7 +78,7 @@ nav a {
 
 .products {
   padding: 10px;
-  text-align
+  object-fit: cover;
 }  
 
 .product-grid {
